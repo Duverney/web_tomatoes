@@ -11,20 +11,21 @@ body {
 
 header {
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 50%;
 /*    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.123);*/
 }
 
 ul {
     list-style-type: none;
     /*Como los li tienen display: inline-block, entonces, es posible centrarlos así:*/
+    margin-top: .5%;
     text-align: center;
     padding-top: .5%;
     /*width: 200px;*/
     /*background-color: rgba(241, 241, 241, 0.479);*/
     position:fixed; /* Make it stick, even on scroll */
     z-index: 1;
-    /* overflow: auto; Enable scrolling if the sidenav has too much content */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
     width: 100%;
     /*height: 46%;*/
     /*font-family: 'Do Hyeon', sans-serif;*/
@@ -93,4 +94,8 @@ ul li:hover {
 
 #root {
     width: 100%;
+}
+
+.main-section {
+    padding-top: 40%;
 }

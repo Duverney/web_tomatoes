@@ -8,7 +8,7 @@ export default class ListaUL extends Component {
     render() {
         return (
             <ul>
-                <ItemLI href='#home' content="Inicio" />
+                <ItemLI href='#home' className='active' content="Inicio" />
                 <ItemLI href='#cabinas' content="Cabinas" />
                 <ItemLI href='#sensores' content="Sensores" />
                 <ItemLI href='#resumen' content="Resumen" />
